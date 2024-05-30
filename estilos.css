@@ -2,3 +2,29 @@
     width: 200px; 
     height: 30px;
 }
+.unaspalabras {
+    width: 1440px;
+    height: 384px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.unas-palabras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.palabras {
+    width: 996px;
+    height: 146px;
+    text-align: center;
+}
+h2 {
+    position: absolute;
+}
+.hablemos {
+    width: 1440px;
+    height: 218px;
+    background-color: black;
+}
