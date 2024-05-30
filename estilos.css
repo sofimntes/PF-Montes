@@ -23,8 +23,36 @@
 h2 {
     position: absolute;
 }
+.section-hablemos {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .hablemos {
-    width: 1440px;
+    width: 793px;
     height: 218px;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parrafo-hablemos {
+    color: white;
+    width: 334px;
+}
+footer{
+    width: 1440px;
+    height: 446px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ul-footer {
+    display: flex;
+    flex-direction: row;
+    width: 657px;
+    justify-content: space-between;
 }
