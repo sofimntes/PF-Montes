@@ -1,6 +1,10 @@
 .tamaño-logo {
-    width: 200px; 
-    height: 30px;
+    width: 159px; 
+    height: 37px;
+}
+.logo-footer{
+    width: 159px;
+    height: 37px;
 }
 .unaspalabras {
     width: 1440px;
@@ -14,6 +18,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.unas-palabras h2{
+    position: absolute;
+    left: 8%;
 }
 .palabras {
     width: 996px;
@@ -72,20 +80,27 @@ footer{
 }
 @media screen and (max-width:500px){
     .Conocenos{
-        width: 375px;
-        flex-direction: column;
+        width: 339px;
+        height: 310px;
     }
 
     .section-conocenos{
         width: 375px;
+        height: 330px;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    
+    section{
+        padding-bottom:0px;
+        padding-top: 0px;
     }
 
     .Conocenos p{
         font-size: 11px;
         text-align: center;
+        width: 320px;
     }
 
     .miembros{
@@ -104,7 +119,17 @@ footer{
     }
 
     .div-miembro{
-        width: 100px;
+        width: 375px;
+        display: flex;
+        justify-content: center;
+    }
+    .nombre-fotografo{
+        width: 375px;
+        display: flex;
+        justify-content: center;
+    }
+    .div-miembro p{
+        text-align: center;
     }
     .miembros{
         display: flex;
@@ -115,9 +140,10 @@ footer{
     }
 
     footer{
-        width: 375px;
+        width: 414px;
         display: flex;
         justify-content: center;
+        margin-bottom: 20px;
     }
 
     footer div img{
@@ -157,33 +183,71 @@ footer{
     .miembros .float{
         width: 375px;
         align-items: center;
+        justify-content: center;
     }
-
-    .container-img{
+    .ul-footer li{
+        width: 320px;
+        display: flex;
+        justify-content: center;
+    }
+    section{
+        width: 414px;
+    }
+    .section-miembros{
+        width: 414px;
+    }
+    .parrafo-centrado text{
+        text-align: center;
+    }
+    .Fotografos{
+        margin-top: 40px;
+    }
+    .nombre-fotografo{
         width: 375px;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
     }
-
-    .container-img img{
-        width: 500px;
+    .float{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
+    .section-conocenos{
+        width: 414px;
+    }
+    .section-miembros .Equipo .Fotografos .miembros .float .div-miembro p{
+        text-align: center;
+    }
+    .galeria-section .container-img{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(7,1fr);
+        grid-auto-rows: 80px;
+        padding: 40px;
+        grid-gap: 30px;
+        width: 400px;
+        height: fit-content;
 
-
+    }
     .galeria-section{
-        width: 375px;
-        height: auto;
+        width: 414px;
+        height: fit-content;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin: 0px;
     }
 }
 
 .Conocenos p{
     text-align: center;
+    padding: 10px;
+}
+.Conocenos{
+    margin: 80px;
 }
 section{
     width: 1440px;
-    padding-top: 40px;
     padding-bottom: 40px;
     display: flex;
     justify-content: center;
@@ -207,20 +271,6 @@ section{
 .miembros div{
     padding: 20px;
 }
-.container-img{
-    width: 1134px;
-    height: 797px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-template-areas: 
-    "area1 area2 area3"
-    "area4 area4 area5";
-}
-.container-img img{
-    width: 100%;
-    height: 100%;
-}
 main{
     max-width: 1400px;
     overflow: hidden;
@@ -234,7 +284,7 @@ footer div{
 }
 
 .redes{
-    width: 170px;
+    width: 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -292,8 +342,9 @@ body p{
     font-size: 26px;
 }
 body h2{
-    font-family: 'Franklin Gothic Medium';
-    font-size: 30px;
+    font-family: 'Franklin Book Demi';
+    font-size: 32px;
+    font-weight: bold;
 }
 body h3{
     font-family: 'Franklin Gothic Medium';
@@ -309,4 +360,71 @@ body h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 40px;
+}
+.container-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-auto-rows: 150px;
+    padding: 40px;
+    grid-gap: 30px;
+    width: 1000px;
+    height: 600px;
+
+}
+.img-gallery{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item-gallery:nth-child(6){
+    grid-column-start: span 2;
+    grid-row-start: span 1;
+}
+.item-gallery:nth-child(3){
+    grid-row-start: span 1;
+}
+.redes-logo{
+    width: 44px;
+    height: 44px;
+}
+.gracias-contacto p{
+    width: 694px;
+    text-align: center;
+}
+section{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.section-conocenos{
+    padding: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.indexbutton{
+    background-color: white;
+    border-radius: 15px;
+    width: 150px;
+    height: 44px;
+}
+.indexbutton a{
+    color: black;
+    text-decoration: none;
+}
+.indexbutton a:hover{
+    text-decoration: underline;
+}
+.contactobutton{
+    color: black;
+}
+.unas-palabras .unaspalabras .palabras h2{
+    position: absolute;
+    left: 82%;
 }
