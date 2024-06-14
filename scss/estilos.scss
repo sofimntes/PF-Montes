@@ -1,0 +1,422 @@
+$fuenteh1: "Franklin Gothic Medium";
+$fuentep: "Franklin Gothic Book";
+$fuenteh2: "Franklin Book Demi";
+.tamaño-logo {
+    width: 159px; 
+    height: 37px;
+}
+.logo-footer{
+    width: 159px;
+    height: 37px;
+}
+.unaspalabras {
+    width: 1440px;
+    height: 384px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .unas-palabras{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .palabras{
+        width: 996px;
+        height: 146px;
+        text-align: center;
+    }
+    h2{
+        position: absolute;
+        left: 82%;
+    }
+}
+
+.section-hablemos {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .hablemos{
+        width: 793px;
+        height: 218px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .parrafo-hablemos {
+        color: white;
+        width: 334px;
+    }
+}
+footer{
+    width: 1440px;
+    height: 446px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    div{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .ul-footer {
+        display: flex;
+        flex-direction: row;
+        width: 657px;
+        justify-content: space-between;
+        li{
+            text-decoration: none;
+            list-style: none;
+        }
+    }
+}
+.Conocenos{
+    max-width: 732px;
+    min-width: 350px;
+    height: 194px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    p{
+        text-align: center;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:500px){
+    .Conocenos{
+        width: 339px;
+        height: 310px;
+    }
+
+    .section-conocenos{
+        width: 375px;
+        height: 330px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    section{
+        padding-bottom:0px;
+        padding-top: 0px;
+    }
+
+    .Conocenos p{
+        font-size: 11px;
+        text-align: center;
+        width: 320px;
+    }
+
+    .miembros{
+        flex-direction: row;
+        width: 375px;
+    }
+
+    .Equipo p{
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .section-miembros{
+        width: 375px;
+        display: flex;
+    }
+
+    .div-miembro{
+        width: 375px;
+        display: flex;
+        justify-content: center;
+    }
+    .nombre-fotografo{
+        width: 375px;
+        display: flex;
+        justify-content: center;
+    }
+    .div-miembro p{
+        text-align: center;
+    }
+    .miembros{
+        display: flex;
+    }
+
+    .Equipo{
+        width: 375px;
+    }
+
+    footer{
+        width: 414px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    footer div img{
+        width: 150px;
+        height: 85px;
+    }
+
+    .redes img{
+        width: 44px;
+        height: 44px;
+    }
+
+    .ul-footer {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        justify-content: center;
+    }
+
+    .foto-miembro{
+        width: 40%;
+    }
+
+    .Fotografos .miembros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 375px;
+    }
+
+    .Fotografos .miembros p{
+        width: 200px;
+        text-align: left;
+    }
+
+    .miembros .float{
+        width: 375px;
+        align-items: center;
+        justify-content: center;
+    }
+    .ul-footer li{
+        width: 320px;
+        display: flex;
+        justify-content: center;
+    }
+    section{
+        width: 414px;
+    }
+    .section-miembros{
+        width: 414px;
+    }
+    .parrafo-centrado text{
+        text-align: center;
+    }
+    .Fotografos{
+        margin-top: 40px;
+    }
+    .nombre-fotografo{
+        width: 375px;
+        display: flex;
+        justify-content: center;
+    }
+    .float{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-conocenos{
+        width: 414px;
+    }
+    .section-miembros .Equipo .Fotografos .miembros .float .div-miembro p{
+        text-align: center;
+    }
+    .galeria-section .container-img{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(7,1fr);
+        grid-auto-rows: 80px;
+        padding: 40px;
+        grid-gap: 30px;
+        width: 400px;
+        height: fit-content;
+
+    }
+    .galeria-section{
+        width: 414px;
+        height: fit-content;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin: 0px;
+    }
+}
+section{
+    width: 1440px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Equipo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.miembros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    p{
+        width: 625px;
+    }
+    div{
+        padding: 20px;
+    }
+}
+main{
+    max-width: 1400px;
+    overflow: hidden;
+}
+body{
+    max-width: 1400px;
+}
+
+.redes{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    div{
+        width: 1400px;
+        height: 477px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .servicio-fondo{
+        background-image: url(../assets/Servicios\ \(1\).png);
+    }
+    .servicio-fondo1{
+        background-image: url(../assets/Servicios\ \(2\).png);
+    }
+    .servicio-fondo2{
+        background-image: url(../assets/Servicios\ \(3\).png);
+    }
+    h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+}
+button{
+    border-radius: 15px;
+}
+.section-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mb-3{
+    width: 700px;
+    height: 100px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body h1{
+    font-family: $fuenteh1;
+    font-size: 40px;
+}
+body p{
+    font-family: $fuentep;
+    font-size: 26px;
+}
+body h2{
+    font-family: $fuenteh2;
+    font-size: 32px;
+    font-weight: bold;
+}
+body h3{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: lighter;
+    font-size: 30px;
+}
+.heroimagen{
+    padding: 0%;
+}
+
+.gracias-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    p{
+        width: 694px;
+        text-align: center;
+    }
+}
+.container-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-auto-rows: 150px;
+    padding: 40px;
+    grid-gap: 30px;
+    width: 1000px;
+    height: 600px;
+
+}
+.img-gallery{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item-gallery:nth-child(6){
+    grid-column-start: span 2;
+    grid-row-start: span 1;
+}
+.item-gallery:nth-child(3){
+    grid-row-start: span 1;
+}
+.redes-logo{
+    width: 44px;
+    height: 44px;
+}
+section{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.section-conocenos{
+    padding: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.indexbutton{
+    background-color: white;
+    border-radius: 15px;
+    width: 150px;
+    height: 44px;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+.contactobutton{
+    color: black;
+}
