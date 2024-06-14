@@ -238,11 +238,11 @@ footer{
         margin: 0px;
     }
     .hero{
-        width: 475px;
+        width: 375px;
         padding: 10px;
     }
     .hero div{
-        width: 475px;
+        width: 375px;
     }
     .heroimagen{
         width: 100%;
@@ -250,25 +250,25 @@ footer{
         object-fit: cover;
     }
     .unas-palabras{
-        width: 475px;
+        width: 375px;
         padding: 10px;
         height: fit-content;
     }
     .unaspalabras{
-        width: 475px;
+        width: 375px;
         height: fit-content;
     }
     .palabras{
-        width: 400px;
+        width: 300px;
         height: fit-content;
         font-size: 12px;
     }
     .section-hablemos{
-        width: 475px;
+        width: 375px;
         height: fit-content;
     }
     .hablemos{
-        width: 475px;
+        width: 375px;
         height: fit-content;
         display: flex;
         justify-content: center;
@@ -284,24 +284,24 @@ footer{
         width: 100px;
     }
     .graciascontacto{
-        width: 475px;
+        width: 375px;
         height: fit-content;
         padding: 10px;
     }
     .gracias-contacto{
-        width: 475px;
+        width: 375px;
         height: fit-content;
     }
     .graciascontacto .gracias-contacto p{
-        width: 400px;
+        width: 300px;
         font-size: 20px;
     }
     .section-form{
-        width: 475px;
+        width: 375px;
         height: fit-content;
     }
     .section-form div{
-        width: 475px;
+        width: 375px;
         height: fit-content;
     }
     .section-form .mb-3{
