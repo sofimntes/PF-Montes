@@ -140,7 +140,7 @@ footer{
     }
 
     footer{
-        width: 414px;
+        width: 375px;
         display: flex;
         justify-content: center;
         margin-bottom: 20px;
@@ -191,10 +191,10 @@ footer{
         justify-content: center;
     }
     section{
-        width: 414px;
+        width: 375px;
     }
     .section-miembros{
-        width: 414px;
+        width: 375px;
     }
     .parrafo-centrado text{
         text-align: center;
@@ -213,7 +213,7 @@ footer{
         justify-content: center;
     }
     .section-conocenos{
-        width: 414px;
+        width: 375px;
     }
     .section-miembros .Equipo .Fotografos .miembros .float .div-miembro p{
         text-align: center;
@@ -226,12 +226,12 @@ footer{
         grid-auto-rows: 80px;
         padding: 40px;
         grid-gap: 30px;
-        width: 400px;
+        width: 375px;
         height: fit-content;
 
     }
     .galeria-section{
-        width: 414px;
+        width: 375px;
         height: fit-content;
         padding-top: 0px;
         padding-bottom: 0px;
@@ -295,6 +295,10 @@ footer{
     .graciascontacto .gracias-contacto p{
         width: 300px;
         font-size: 20px;
+        text-align: center;
+    }
+    .graciascontacto .gracias-contacto h1{
+        text-align: center;
     }
     .section-form{
         width: 375px;
@@ -305,7 +309,7 @@ footer{
         height: fit-content;
     }
     .section-form .mb-3{
-        width: 400px;
+        width: 300px;
         height: fit-content;
     }
 }
